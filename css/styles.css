@@ -15,3 +15,25 @@ h2{color: blue;}
 
 
 }
+/*Selectores*/
+*{
+    color: black
+}
+/*Selector descendente*/
+p span{
+    border: black;
+    background-color: crimson;
+}
+#etiquietasDeBloque ul li{
+        text-decoration: underline;
+        color: rgb(0, 170, 255);
+}
+/*Selector de clase*/
+.Destacado{
+    background-color: red;
+    transition: width 1s ease-in-out;
+}
+.destacado:hover  {
+    background-color: cornflowerblue;
+    width: 120% ;
+}
