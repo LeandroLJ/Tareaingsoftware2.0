@@ -41,3 +41,18 @@ p span{
     div > p { 
         font-style: italic;
 }
+/*Selector adyacente*/
+li + li{
+    background-color: darkgoldenrod;
+}
+/*Selector de atributos*/
+img[width] {    
+    border-radius: 40px;x
+    border: solid 1px black;
+}
+a[target="_blank"]{
+    text-transform: uppercase;
+    color: crimson;
+}
+*[border~="double"]{
+    color: darkmagenta;}
