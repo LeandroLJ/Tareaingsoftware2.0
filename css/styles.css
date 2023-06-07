@@ -37,3 +37,7 @@ p span{
     background-color: cornflowerblue;
     width: 120% ;
 }
+/*Selector de hijos*/
+    div > p { 
+        font-style: italic;
+}
